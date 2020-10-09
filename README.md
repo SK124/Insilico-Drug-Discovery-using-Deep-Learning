@@ -32,13 +32,13 @@ Finally we generate sequences(read as candidates) with a certain similarity (a h
 
 1.New architectures like Transformers were explored to improve the model, however owing to the limitations of compuataional power. I could not continue my research in that direction.
 
-2. To improve the perfomance I started working on the fingerprint generator.Graph Neural Networks were a better choice due to the homologous similairty between molecular structure and architecure structure. (Many differnt models were trued and DMPNNS were experimented and the research is still ongoing).
+2. To improve the perfomance I started working on the fingerprint generator.Graph Neural Networks were a better choice due to the homologous similairty between molecular structure and architecure structure. (Many differnt models were trued and [DMPNNS](https://pubs.acs.org/doi/full/10.1021/acs.jcim.9b00237) were experimented and the research is still ongoing).
 
 ![Working of GNNs Picture taken from DMPNN Paper](https://pubs.acs.org/na101/home/literatum/publisher/achs/journals/content/jcisd8/2019/jcisd8.2019.59.issue-8/acs.jcim.9b00237/20190819/images/medium/ci9b00237_0001.gif)
 
 *Working of GNNs in DMPNNs Picture taken from DMPNN Paper*
 
-Similarly, Graph Transformers were also ideal candidate for the job. Molecule Attention Transformer MAT was experimented and the arcitecture was changed to get a 1024 Dimension feature vector. Thankfully the authors have provided pretrained weights which were used to generate 1024 Dimesional feature vector. The research is still ongoing (currently paused due to other commitments). You cn read the Project Report for more details on the project.
+Similarly, Graph Transformers were also ideal candidate for the job. [Molecule Attention Transformer(MAT)](https://arxiv.org/abs/2002.08264) was experimented and the arcitecture was changed to get a 1024 Dimension feature vector. Thankfully the authors have provided pretrained weights which were used to generate 1024 Dimesional feature vector. The research is still ongoing (currently paused due to other commitments). You cn read the Project Report for more details on the project.
 
 ![Architecture Of MAT](https://github.com/gmum/MAT/raw/master/assets/MAT.png)
 
