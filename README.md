@@ -1,6 +1,9 @@
 # Insilico Drug Discovery using Deep Learning
 **A simple approach on generating drug sequences using LSTMs** 
 
+
+
+
 **JULY 2020**
 
 In this project we use LSTM's to generate Drug Sequences.
@@ -15,6 +18,9 @@ Please go through the notebook it has explaination and reason behind every code.
 
 This project is open for constructive criticism. Feel free to drop your opinions and changes you feel would improve its perfomance.
 
+
+
+
 **UPDATE : AUGUST 2020**
 
 There have been considerable new changes made in the project these are as follows:
@@ -27,6 +33,8 @@ This approach uses two models(GRUs + Embeding from Point 1). They are called Pri
 We perfom a scoring by comparing client and sample, the way we do this is by using FingerPrint generator(1024 Dimension Vector) and then we calculate the Tanimoto Similarity between the two and finally we get a score (0-1) which we incorporate into our loss function to finetune the Agent.
 
 Finally we generate sequences(read as candidates) with a certain similarity (a hyperparameter we can tweak) w.r.t client molecule.
+
+
 
 **UPDATE : SEPTEMBER 2020**
 
@@ -44,7 +52,9 @@ Similarly, Graph Transformers were also ideal candidate for the job. [Molecule A
 
 *Architecture Of MAT*
 
+
 Once this architecture is incorporated into the model, I am planning to constrcut a web API (similar to http://chemprop.csail.mit.edu/predict) to genearete suitable drug candidates with respect a client molecule with a certain similairty(hyperparameter).
+
 
 This project is open to further research. Feel free to drop your opinions and changes you feel would improve its perfomance.
 
