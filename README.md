@@ -31,16 +31,20 @@ Finally we generate sequences with a certain similarity (a hyperparameter we can
 **UPDATE : SEPTEMBER 2020**
 
 1.New architectures like Transformers were explored to improve the model, however owing to the limitations of compuataional power. I could not continue my research in that direction.
-2. To improve the perfomance I started working on the fingerprint generator.Graph Neural Networks were a better choice due to the homologous similairty between molecular structure and architecure structure. (Many differnt models were trued and DMPNNS were experimented and the research is still ongoing). Similarly, Graph Transformers were also ideal canidadte for the job. Molecule Attention Transformer MAT was experimented and the arcitecture was changed to get a 1024 Dimension feature vector. Thankfully the authors have provided pretrained weights which were used to generate 1024Dimesional feature vector. The research is still ongoing (currently paused due to other commitments).
-Once this architecture is incorporated into the model, I am planning to constrcut a web API (similar to http://chemprop.csail.mit.edu/predict) to genearete suitable drug candidates with respect a client molecule with a certain similairty(hyperparameter).
+
+2. To improve the perfomance I started working on the fingerprint generator.Graph Neural Networks were a better choice due to the homologous similairty between molecular structure and architecure structure. (Many differnt models were trued and DMPNNS were experimented and the research is still ongoing).
 
 ![Working of GNNs Picture taken from DMPNN Paper](https://pubs.acs.org/na101/home/literatum/publisher/achs/journals/content/jcisd8/2019/jcisd8.2019.59.issue-8/acs.jcim.9b00237/20190819/images/medium/ci9b00237_0001.gif)
 
 *Working of GNNs in DMPNNs Picture taken from DMPNN Paper*
 
+Similarly, Graph Transformers were also ideal candidate for the job. Molecule Attention Transformer MAT was experimented and the arcitecture was changed to get a 1024 Dimension feature vector. Thankfully the authors have provided pretrained weights which were used to generate 1024 Dimesional feature vector. The research is still ongoing (currently paused due to other commitments).
+
 ![Architecture Of MAT](https://github.com/gmum/MAT/raw/master/assets/MAT.png)
 
 *Architecture Of MAT*
+
+Once this architecture is incorporated into the model, I am planning to constrcut a web API (similar to http://chemprop.csail.mit.edu/predict) to genearete suitable drug candidates with respect a client molecule with a certain similairty(hyperparameter).
 
 This project is open to further research. Feel free to drop your opinions and changes you feel would improve its perfomance.
 
