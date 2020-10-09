@@ -38,7 +38,7 @@ Finally we generate sequences with a certain similarity (a hyperparameter we can
 
 *Working of GNNs in DMPNNs Picture taken from DMPNN Paper*
 
-Similarly, Graph Transformers were also ideal candidate for the job. Molecule Attention Transformer MAT was experimented and the arcitecture was changed to get a 1024 Dimension feature vector. Thankfully the authors have provided pretrained weights which were used to generate 1024 Dimesional feature vector. The research is still ongoing (currently paused due to other commitments).
+Similarly, Graph Transformers were also ideal candidate for the job. Molecule Attention Transformer MAT was experimented and the arcitecture was changed to get a 1024 Dimension feature vector. Thankfully the authors have provided pretrained weights which were used to generate 1024 Dimesional feature vector. The research is still ongoing (currently paused due to other commitments). You cn read the Project Report for more details on the project.
 
 ![Architecture Of MAT](https://github.com/gmum/MAT/raw/master/assets/MAT.png)
 
