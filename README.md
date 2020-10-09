@@ -26,7 +26,7 @@ This approach uses two models(GRUs + Embeding from Point 1). They are called Pri
 
 We perfom a scoring by comparing client and sample, the way we do this is by using FingerPrint generator(1024 Dimension Vector) and then we calculate the Tanimoto Similarity between the two and finally we get a score (0-1) which we incorporate into our loss function to finetune the Agent.
 
-Finally we generate sequences with a certain similarity (a hyperparameter we can tweak) w.r.t client's molecule.
+Finally we generate sequences(read as candidates) with a certain similarity (a hyperparameter we can tweak) w.r.t client molecule.
 
 **UPDATE : SEPTEMBER 2020**
 
