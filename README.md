@@ -1,10 +1,11 @@
 # Insilico Drug Discovery using Deep Learning
-**A simple approach on generating drug sequences using LSTMs** 
 
 
 
 
 **JULY 2020**
+
+**A simple approach on generating drug sequences using LSTMs** 
 
 In this project we use LSTM's to generate Drug Sequences.
 
