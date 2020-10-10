@@ -5,7 +5,7 @@
 
 **JULY 2020**
 
-**A simple approach on generating drug sequences using LSTMs** 
+**A simple approach on generating drug sequences using RNNs & Transformers** 
 
 In this project we use LSTM's to generate Drug Sequences.
 
