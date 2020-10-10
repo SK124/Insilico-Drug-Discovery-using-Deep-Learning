@@ -57,10 +57,10 @@ Graph Transformers were also ideal candidate for the job. [Molecule Attention Tr
 
 ![Architecture Of MAT](https://github.com/gmum/MAT/raw/master/assets/MAT.png)
 
-                                                         Architecture Of MAT
+                                       Architecture Of MAT
 
 
-Once this architecture is incorporated into the model, I am planning to constrcut a web API (similar to http://chemprop.csail.mit.edu/predict) to genearete suitable drug candidates with respect a client molecule with a certain similairty(hyperparameter).
+Once this architecture is incorporated into the model, I am planning to construct a web API (similar to http://chemprop.csail.mit.edu/predict) to genearete suitable drug candidates with respect a client molecule with a certain similairty(hyperparameter).
 
 
 This project is open to further research. Feel free to drop your opinions and changes you feel would improve its perfomance.
