@@ -68,7 +68,7 @@ This project is open to further research. Feel free to drop your opinions and ch
 
 **UPDATE**
 
-The MAT Transfromer has been incorporated inside the main Model. Currently the Two Stage Model Supports Cosine Similarity for scoring when you use MAT for fingerprint generation. If you wish to use domain specific RDkit Morgan Fingerprint, Tanimoto Similairty is used. Different Similairty measures are being experimented. MAT also will be changed in the future iterations of the project. I have updated main.ipynb notebook which as the code for Complete . ipynb notebook. Scripting is underway. After its done .ipynb will be replaced with the final script. Cheers!
+The MAT Transfromer has been incorporated inside the main Model. Currently the Two Stage Model Supports Cosine Similarity for scoring when you use MAT for fingerprint generation. If you wish to use domain specific RDkit Morgan Fingerprint, Tanimoto Similairty is used. Different Similairty measures are being experimented. MAT also will be changed in the future iterations of the project. I have updated main.ipynb notebook which has the code for Complete Two Stage Model. Scripting is underway. After its done .ipynb will be replaced with the final script. Cheers!
 
 
 
