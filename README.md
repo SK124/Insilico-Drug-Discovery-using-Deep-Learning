@@ -70,7 +70,7 @@ This project is open to further research. Feel free to drop your opinions and ch
 
 The MAT has been incorporated inside the main Model. Currently the Two Stage Model Supports Cosine Similarity for scoring when you use MAT for fingerprint generation. If you wish to use domain specific RDkit Morgan Fingerprint, Tanimoto Similairty is used. Different Similairty measures are being experimented. MAT also will be changed in the future iterations of the project. I have updated main.ipynb notebook which has the code for Complete Two Stage Model. Scripting is underway. After its done .ipynb will be replaced with the final script. Cheers!
 
-Caveats: 
+Caveat: 
 
 I have noticed that MAT is underperfroming owing to the lack of training on a relevant dataset corresponding to the client's molecule. Let's say the Client is looking for Cancer related drug sequences. In ordedr to give specific to cancer realted drugs MAT needs to be trained on a certain downstream task like predicting Anti Cancer properites as a regression/classfication problem. Later use trained transformer weights in the Fingerprint Generator to get a 1024 vector (by making few changes of course). MAT initally was made for classification/Regression subproblems. Using it as a Fingerprint Generator by modifiyng few final layers is the magic here! :D 
 
