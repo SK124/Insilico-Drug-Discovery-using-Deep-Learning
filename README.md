@@ -53,7 +53,7 @@ Since I needed to extract features from the seqeunces and compare it with anothe
 
                                           SMILES Transformer Working
 
-Graph Transformers were also ideal candidate for the job. [Molecule Attention Transformer(MAT)](https://arxiv.org/abs/2002.08264) was experimented and the arcitecture was changed to get a 1024 Dimension feature vector. Thankfully the authors have provided pretrained weights which were used to generate 1024 Dimesional feature vector. The research is still ongoing (currently paused due to other commitments). You cn read the Project Report for more details on the project.
+Transformers using graphs were also ideal candidate for the job. [Molecule Attention Transformer(MAT)](https://arxiv.org/abs/2002.08264) was experimented and the arcitecture was changed to get a 1024 Dimension feature vector. Thankfully the authors have provided pretrained weights which were used to generate 1024 Dimesional feature vector. The research is still ongoing (currently paused due to other commitments). You cn read the Project Report for more details on the project.
 
 ![Architecture Of MAT](https://github.com/gmum/MAT/raw/master/assets/MAT.png)
 
