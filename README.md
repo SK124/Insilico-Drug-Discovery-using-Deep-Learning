@@ -9,7 +9,7 @@
 |qbmg.ipynb                                                           |GRUs 3 Layers                                                               |PyTorch|
 |drugagentrl.ipynb (Agent & Prior have same structrure, clone of qbmg)|GRUs 3 Layers                                                               |PyTorch|
 |smiles-transformer                                                   |Transformer ( 4 Layers of Encoder & Decoder)                                |PyTorch|
-|molecular-finerprint-mat.ipynb                                       |Molecule Attention Transformer (Modified to take adjacency,distance matrix) |PyTorch|
+|molecular-finerprint-mat.ipynb                                       |Molecule Attention Transformer (Transformer Modified to take adjacency,distance matrix) |PyTorch|
 |main.ipynb                                                           |Molecule Attention Transformer + LM using GRUS+ Molecular ECFP              |PyTorch|
 
 
