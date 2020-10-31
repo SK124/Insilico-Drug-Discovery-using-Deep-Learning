@@ -1,6 +1,16 @@
 # Insilico Drug Discovery using Deep Learning
 
+* Table explaining different models and the respective architectures involved ( UPDATED ON OCTOBER 2020 )
 
+
+|Notebook Name                                                        |Architecture & Model Specifics                                              |Library|
+|---------------------------------------------------------------------|----------------------------------------------------------------------------|-------|
+|de-novo-drug-synthesis-using-recurrent-neural-networks.ipynb         |LSTMs 3 layers 256 Units in each layer                                      |Keras  |
+|qbmg.ipynb                                                           |GRUs 3 Layers                                                               |Pytorch|
+|drugagentrl.ipynb (Agent & Prior have same structrure, clone of qbmg)|GRUs 3 Layers                                                               |Pytorch|
+|smiles-transformer                                                   |Transformer ( 4 Layers of Encoder & Decoder)                                |Pytorch|
+|molecular-finerprint-mat.ipynb                                       |Molecule Attention Transformer (Modified to take adjacency,distance matrix) |Pytorch|
+|main.ipynb                                                           |Molecule Attention Transformer + LM using GRUS+ Molecular ECFP              |Pytorch|
 
 
 **JULY 2020**
