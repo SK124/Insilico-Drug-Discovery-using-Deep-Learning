@@ -5,7 +5,7 @@
 
 |Notebook Name                                                        |Architecture & Model Specifics                                              |Library|
 |---------------------------------------------------------------------|----------------------------------------------------------------------------|-------|
-|de-novo-drug-synthesis-using-recurrent-neural-networks.ipynb         |LSTMs 3 layers 256 Units in each layer                                      |Keras  |
+|de-novo-drug-synthesis-using-recurrent-neural-networks.ipynb         |LSTMs 3 layers                                                              |Keras  |
 |qbmg.ipynb                                                           |GRUs 3 Layers                                                               |Pytorch|
 |drugagentrl.ipynb (Agent & Prior have same structrure, clone of qbmg)|GRUs 3 Layers                                                               |Pytorch|
 |smiles-transformer                                                   |Transformer ( 4 Layers of Encoder & Decoder)                                |Pytorch|
