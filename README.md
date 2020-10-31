@@ -36,9 +36,9 @@ Feel free to drop your opinions and changes you feel would improve its perfomanc
 
 * There have been considerable new changes made in the project these are as follows:
 
-   1. SMILES GENERATOR : Constructed a New Model using GRUs with an embedding layer to overcome shortcomings of LSTM Model.
+   * SMILES GENERATOR : Constructed a New Model using GRUs with an embedding layer to overcome shortcomings of LSTM Model.
 
-   2. Used Reinforcement techniques to generate novel drug sequences (SMILES format) using Molecular finerprints
+   * Used Reinforcement techniques to generate novel drug sequences (SMILES format) using Molecular finerprints
    
 * This approach uses two models(GRUs + Embeding from Point 1). They are called Prior and Agent, Prior and Agent uses the weights we got after training the SMILES Generator(Point 1) and using Experience Relay we and augmented loss likelihood to finuetune the Agent to generate sequnces( read as Sample) with respect to a Molecule (read as Client).
 
