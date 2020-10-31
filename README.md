@@ -40,7 +40,7 @@ Feel free to drop your opinions and changes you feel would improve its perfomanc
 
    * Used Reinforcement techniques to generate novel drug sequences (SMILES format) using Molecular finerprints
    
-* This approach uses two models(GRUs + Embeding from Point 1). They are called Prior and Agent, Prior and Agent uses the weights we got after training the SMILES Generator(Point 1) and using Experience Relay we and augmented loss likelihood to finuetune the Agent to generate sequnces( read as Sample) with respect to a Molecule (read as Client).
+* This approach uses two models(GRUs + Embedding from Point 1). They are called Prior and Agent, Prior and Agent uses the weights we got after training the SMILES Generator(Point 1) and using Experience Relay we and augmented loss likelihood to finuetune the Agent to generate sequnces( read as Sample) with respect to a Molecule (read as Client).
 
 * We perfom a scoring by comparing client and sample, the way we do this is by using FingerPrint generator(1024 Dimension Vector) and then we calculate the Tanimoto Similarity (Jaccard Similarity) between the two and finally we get a score (0-1) which we incorporate into our loss function to finetune the Agent.
 
