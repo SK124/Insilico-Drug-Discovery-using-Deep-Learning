@@ -83,7 +83,7 @@ This project is open to further research. Feel free to drop your opinions and ch
 
 * Caveat: 
 
-I have noticed that MAT is underperfroming owing to the lack of training on a relevant dataset corresponding to the client's molecule. Let's say the Client is looking for Cancer related drug sequences. In ordedr to give specific to cancer realted drugs MAT needs to be trained on a certain downstream task like predicting Anti Cancer properites as a regression/classfication problem. Later use trained transformer weights in the Fingerprint Generator to get a 1024 vector (by making few changes of course). MAT initally was made for classification/Regression subproblems. Using it as a Fingerprint Generator by modifiyng few final layers is the magic here! :D 
+I have noticed that MAT is underperfroming owing to the lack of training on a relevant dataset corresponding to the client's molecule. Let's say the client is looking for Cancer related drug sequences. In order to give specific to cancer realted drugs MAT needs to be trained on a certain downstream task like predicting Anti Cancer properites as a regression/classfication problem. Later use trained transformer weights in the Fingerprint Generator to get a 1024 vector (by making few changes of course). MAT initally was made for classification/Regression subproblems. Using it as a Fingerprint Generator by modifiyng few final layers is the magic here! :D 
 
 
 
